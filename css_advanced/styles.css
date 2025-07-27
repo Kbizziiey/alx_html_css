@@ -1,0 +1,355 @@
+.hero-background {
+  background-image: url("./images/Object.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Hero and Banner */
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 24px;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.get-schooled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  margin: 80px 0;
+}
+
+.get-schooled h1 {
+  font-size: 120px;
+}
+
+.get-schooled div {
+  display: flex;
+  gap: 32px;
+  margin: 40px 0;
+}
+
+.get-schooled button {
+  background-color: #c271ff;
+  padding: 22px 28px;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px 2px #525050;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-schooled button:hover {
+  opacity: 0.8;
+}
+
+/* Pros */
+
+.pros {
+  padding: 30px 0;
+  color: #fff;
+}
+
+.pros h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 120px;
+}
+
+.pros h2 span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.pros .wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pros .wrapper .card {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pros .wrapper .card img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.pros .wrapper .card p {
+  text-align: center;
+  font-style: italic;
+}
+
+/* Qoute */
+
+.qoute {
+  background-color: #c271ff;
+}
+
+.qoute .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.qoute .text {
+  color: #fff;
+  font-size: 22px;
+}
+
+.qoute blockquote {
+  margin-bottom: 26px;
+}
+
+.qoute h3 {
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+/* Tutorials */
+
+.tutorials h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 80px 0;
+}
+
+.tutorials h2 span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.tutorials .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tutorials .card {
+  width: 360px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tutorials .card .lower-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 0 8px;
+}
+
+.tutorials .card h3 {
+  font-weight: 700;
+}
+
+.tutorials .card p {
+  color: #727c8a;
+  line-height: 28px;
+}
+.tutorials .card .diagonal {
+  background: url("./images/9.png");
+}
+
+.tutorials .card .sad {
+  background: url("./images/7.png");
+}
+
+.tutorials .card .natural {
+  background: url("./images/8.png");
+}
+
+.tutorials .card .happy {
+  background: url("./images/6.png");
+}
+
+.tutorials .card .diagonal,
+.tutorials .card .sad,
+.tutorials .card .natural,
+.tutorials .card .happy {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.tutorials .card .review {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tutorials .card .review img {
+  width: 40px;
+}
+
+.tutorials .card .review h4 {
+  color: #c271ff;
+}
+
+.tutorials .card .rating {
+  display: flex;
+}
+
+.tutorials .card .rating-and-duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutorials .card .rating-and-duration p {
+  color: #c271ff;
+}
+
+/* Membership */
+
+.membership {
+  background-color: #071629;
+  color: #fff;
+  padding: 60px 0;
+  margin: 40px 0;
+}
+
+.membership h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.membership h2 span {
+  color: #c271ff;
+  font-weight: bold;
+}
+
+.membership .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.membership .wrapper .card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.membership .wrapper .card p {
+  line-height: 32px;
+}
+
+.membership .register-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.membership .register-btn button {
+  background-color: #c271ff;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 50px;
+  transition: all 0.3 ease-in-out;
+}
+
+.membership .register-btn button:hover {
+  opacity: 0.8;
+}
+
+/* FAQ */
+
+.faq h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 80px;
+  color: #071629;
+}
+
+.faq .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 80px;
+}
+
+.faq .wrapper .card {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.faq .wrapper .card h3 {
+  font-weight: 700;
+  color: #071629;
+  font-size: 18px;
+}
+
+.faq .wrapper .card p {
+  color: #727c8a;
+  line-height: 24px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #071629;
+  color: #fff;
+  padding: 60px 0;
+  margin-top: 60px;
+}
+
+.footer .wrapper .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .wrapper .logos {
+  display: flex;
+  gap: 24px;
+}
+
+.footer p {
+  color: #525050;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+body,
+main {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+}
+
+main {
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}
+
+article,
+aside {
+  overflow-y: auto;
+}
+
+.comments .card .name-and-image {
+  display: flex;
+  align-items: center;
+}
+
+.comments .card img {
+  width: 20px;
+  border-radius: 50%;
+}
+
+.comments .card h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
