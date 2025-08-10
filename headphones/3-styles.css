@@ -1,0 +1,376 @@
+.hero-background {
+  background-image: url("./images/main_part.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+  color: #fff;
+}
+
+/* Header */
+
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+header .content .title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+header .content .title h1 {
+  font-size: 16px;
+}
+
+header .content .title img {
+  width: 20px;
+  height: 20px;
+}
+
+header .content nav ul {
+  display: flex;
+  gap: 48px;
+}
+
+header .content nav ul li {
+  list-style: none;
+}
+
+header .content nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: lowercase;
+  transition: all 0.3s ease-in-out;
+}
+
+header .content nav ul li a:hover {
+  color: #ff6565;
+}
+
+header .content .burger-menu {
+  display: none;
+}
+
+/* Hero */
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 62px;
+  margin-top: 180px;
+}
+
+.hero .content .title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.hero .content .title h2 {
+  font-size: 48px;
+  text-transform: none;
+}
+
+.hero .content button {
+  background-color: #ff6565;
+  color: #fff;
+  padding: 16px 48px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero .content button:hover {
+  opacity: 0.9;
+}
+
+.hero .content .summary {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  max-width: 800px;
+}
+
+/* What we do */
+
+.what-we-do .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  color: #071629;
+}
+
+.what-we-do .content h2 {
+  font-size: 48px;
+  text-transform: none;
+  text-align: center;
+}
+
+.what-we-do .content p {
+  text-align: center;
+  font-size: 18px;
+  max-width: 800px;
+}
+
+.what-we-do .content .wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  gap: 32px;
+}
+
+.what-we-do .content .card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+/* Results */
+
+.results {
+  background-image: url("./images/part_3_dark.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.results .content {
+  padding: 68px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results .content h2 {
+  font-size: 48px;
+  text-transform: none;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.results .content .summary {
+  text-align: center;
+  font-size: 18px;
+  max-width: 800px;
+}
+
+.results .content .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.results .content .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 200px;
+  height: 200px;
+  background: #ff6347;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  margin: 50px auto;
+}
+
+.results .content .card h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Contact */
+
+.contact .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  color: #071629;
+}
+
+.contact .content h2 {
+  font-size: 48px;
+  text-transform: none;
+  text-align: center;
+}
+
+.contact .content .name,
+.contact .content .email,
+.contact .content .message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact .content .name input,
+.contact .content .email input,
+.contact .content .message textarea {
+  width: 600px;
+  padding: 12px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  border-radius: 8px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact .submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.contact .submit-btn button {
+  background-color: #ff6565;
+  padding: 16px 64px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .submit-button:hover {
+  opacity: 0.7;
+}
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  /* Hero */
+  .hero .content .title h2 {
+    text-align: center;
+  }
+  .hero .content {
+    margin-top: 120px;
+  }
+  /* Results */
+  .results {
+    height: 900px;
+  }
+  .results .content .wrapper {
+    gap: 48px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  /* Hero */
+  .hero .content {
+    margin-top: 100px;
+  }
+  /* Results */
+  .results {
+    height: 1000px;
+  }
+  .results .content .wrapper {
+    gap: 16px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  /* Header */
+  header .content nav {
+    display: none;
+  }
+  header .content .burger-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  header .content .burger-menu span {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+  }
+  /* Hero */
+  .hero .content .title h2 {
+    font-size: 36px;
+  }
+  /* What we do */
+  .what-we-do .content h2 {
+    font-size: 36px;
+  }
+  /* Results */
+  .results .content h2 {
+    font-size: 36px;
+  }
+  /* Contact */
+  .contact .content h2 {
+    font-size: 36px;
+  }
+  .contact .content .name input,
+  .contact .content .email input,
+  .contact .content .message textarea {
+    width: 460px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  /* Header */
+  header .content .title {
+    gap: 8px;
+  }
+  /* Hero */
+  .hero-background {
+    height: 780px;
+  }
+  .hero .content {
+    gap: 32px;
+  }
+  .hero .content .title p {
+    text-align: center;
+  }
+  /* Results */
+  .results {
+    height: 1660px;
+  }
+  .results .content .wrapper {
+    flex-direction: column;
+  }
+  /* Contact */
+  .contact .content .name input,
+  .contact .content .email input,
+  .contact .content .message textarea {
+    width: 100%;
+  }
+}
